@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0183/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0183/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金籙玄靈轉經早朝行道儀
+  date: '2015-08-29 00:12:20.733387'
+  source:
+    repository: kanripo
+    path: KR5b0183
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0183_000-HFL.yaml, hash: 'sha256:8561e4b3bfa340cb06cadf410dada6ca57817c101a042ae8961070e138778c6e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0183_000-HFL.markers.yaml, hash: 'sha256:cde7a6e3f75307854cd2074f5918e039a1779d1dcce1a0be2614f7171f55e51e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0183_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2360
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1e77dcabbd642926882a0c764dac208704ae92735837531b5753b64cd135aa0a
